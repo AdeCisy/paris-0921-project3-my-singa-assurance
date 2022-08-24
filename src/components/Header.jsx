@@ -26,7 +26,6 @@ function Header() {
           <Link to="/">Accueil</Link>
           <Link to="/concept">Mode d&apos;emploi</Link>
           <Link to="/actus">Actus</Link>
-          <li>Qui sommes-nous ?</li>
         </ul>
         <div className={style.buttons}>
           <button className={style.offers} onClick={goOffer}>
