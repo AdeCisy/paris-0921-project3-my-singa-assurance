@@ -1,0 +1,64 @@
+.allConceptButton {
+  .apparentButton {
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: white;
+    padding-right: 1vw;
+    width: 220px;
+    img {
+      width: 2.7vw;
+      background-color: white;
+      border-radius: 50px;
+    }
+    .title {
+      margin-left: 2%;
+    }
+    div {
+      background-color: white;
+    }
+  }
+  .arg {
+    display: none;
+  }
+}
+
+//.allConceptButton:hover {
+//   transform: translate(1.1, 5);
+//   transition: 500ms;
+//   transform-origin: top;
+//   font-weight: lighter;
+//   cursor: default;
+//   border: solid 1px #2ad63e;
+//   background-color: white;
+//   border-radius: 8px;
+//   padding-top: 1vh;
+//   padding-right: 1vh;
+//   z-index: 99;
+//   width: 110%;
+//   .apparentButton {
+//     border: none;
+//     img {
+//       margin-left: 5%;
+//     }
+//     .title {
+//       font-weight: bold;
+//       .plus {
+//         display: none;
+//       }
+//     }
+//   }
+//   .arg {
+//     display: flex;
+//     background-color: white;
+//   }
+//   .ulConceptBtn {
+//     list-style: none;
+//     text-decoration: none;
+//   }
+// }
+
+.allConceptButton:not(:hover) {
+  transform: translate(1, 5.1);
+  transition: 500ms;
+}

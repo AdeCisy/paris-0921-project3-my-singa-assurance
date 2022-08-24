@@ -1,8 +1,8 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 import style from './style/Header.module.scss';
-import Logo from '../assets/logo.png';
+import Logo from '/assets/logo.png';
 
 function Header() {
   const navigate = useNavigate();
@@ -11,37 +11,25 @@ function Header() {
     navigate('/login');
   };
 
-  function GoHome() {
-    navigate('/');
-  }
-
-  function GoOffer() {
+  const goOffer = () => {
     navigate('/offer/offer');
-  }
-
-  function GoActus() {
-    navigate('/actus');
-  }
-
-  function GoWelcome() {
-    navigate('/');
-  }
+  };
 
   return (
     <header className={style.header}>
       <nav className={style.container}>
-        <div className={style.brand} onClick={GoHome}>
+        <Link to="/" className={style.brand}>
           <img src={Logo} className={style.ImgLogo} alt="Singa Logo" />
           <p className={style.logo}>singa</p>
-        </div>
+        </Link>
         <ul className={style.menu}>
-          <li onClick={GoWelcome}>Accueil</li>
-          <li>Mode d&apos;emploi</li>
-          <li onClick={GoActus}>Actus</li>
+          <Link to="/">Accueil</Link>
+          <Link to="/concept">Mode d&apos;emploi</Link>
+          <Link to="/actus">Actus</Link>
           <li>Qui sommes-nous ?</li>
         </ul>
         <div className={style.buttons}>
-          <button className={style.offers} onClick={GoOffer}>
+          <button className={style.offers} onClick={goOffer}>
             Consulter les offres
           </button>
           <button onClick={handleLogIn} className={style.account}>

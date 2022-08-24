@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans');
+
+.recipientsMainContainer {
+  margin-top: 13vh;
+  margin-left: 15%;
+  .recipientTitle {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'work sans', sans-serif;
+  }
+  .recipientInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+    .recipientsButton {
+      margin-top: 5%;
+      height: 5vh;
+      border: top;
+      border-radius: 20px;
+      width: 20vw;
+      background-color: #ffbc00;
+      border: none;
+      font-family: 'work Sans', sans-serif;
+      font-weight: 600;
+      font-size: large;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.subscriberMainContainer {
+  display: flex;
+  flex-direction: column;
+  .downMainContainer {
+    display: flex;
+    .rightContainer {
+      width: 80vw;
+      .subscriberFooter {
+        margin-top: 8vh;
+      }
+    }
+  }
+}

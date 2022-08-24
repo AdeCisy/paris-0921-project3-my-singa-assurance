@@ -1,0 +1,90 @@
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 92vh;
+  margin-top: 8vh;
+  .RecipientLocationTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-right: 7%;
+    .RecipientLocationButton {
+      align-items: center;
+      background-color: #e0e0e0;
+      border: none;
+      border-radius: 84px;
+      margin: 3% 3% 3% 3%;
+      height: 5vh;
+      width: 10%;
+      display: flex;
+      justify-content: space-evenly;
+      cursor: pointer;
+      .recipientyLocationIcon {
+        .recipientLocationIconArrow {
+          margin-right: 50%;
+        }
+      }
+      .returnButtonOfferRate {
+        color: #525252;
+        background: none;
+        font-family: 'work sans', sans-serif;
+        font-weight: 600;
+        font-size: 1.3em;
+      }
+    }
+    .mainTitleOfferRate {
+      display: flex;
+      align-items: center;
+
+      .RecipientLocationMainPortrait {
+        .RecipientLocationPortrait {
+          border-radius: 50%;
+          margin-right: 2vw;
+          width: 56px;
+        }
+      }
+      .RecipientLocationTextTitle {
+        .RecipientLocationPresentation {
+          display: flex;
+          font-family: 'work sans', sans-serif;
+          font-size: 1.7em;
+          font-weight: 500;
+          flex-direction: row;
+          .emojiHandright {
+            margin-left: 1vw;
+          }
+        }
+      }
+    }
+  }
+  .ratesMainContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 50vh;
+  }
+  .btnNext {
+    align-items: center;
+    border: none;
+    border-radius: 84px;
+    margin: 3% 3% 3% 3%;
+    height: 5vh;
+    width: 20%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: #2ad63e;
+    cursor: pointer;
+    color: white;
+    .returnButtonOfferRate {
+      background: none;
+      font-family: 'work sans', sans-serif;
+      font-weight: 600;
+      font-size: 1.3em;
+    }
+  }
+}

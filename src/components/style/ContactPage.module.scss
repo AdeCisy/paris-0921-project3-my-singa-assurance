@@ -37,7 +37,7 @@
 .imageContainer {
   display: flex;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 80vw;
   margin-top: 10%;
 }
 
@@ -48,6 +48,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width:30vw;
 }
 
 .titleImage1,
@@ -67,13 +68,13 @@
 
 .btnImage1,
 .btnImage2 {
-  margin-top: 5%;
-  height: 6vh;
-  border: top;
-  border-radius: 20px;
-  width: 20vw;
-  background-color: #ffbc00;
+  height: 5vh;
+  width: 200px;
+  border-radius: 30px;
   border: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  background-color: #ffbc00;
+  font-family: "work Sans", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
 }

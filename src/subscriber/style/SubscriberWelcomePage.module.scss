@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans');
+
+$primary-font: 'Work sans', sans-serif;
+$secondary-font: 'open sans', sans-serif;
+
+$primary-color: #2ad63e;
+$secondary-color: #ffbc00;
+
+.mainContainerSubscriberWelcomePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscriberWelcomePagetitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .subscriberWelcomePagetitleContainerText {
+    font-family: 'work sans', sans-serif;
+    font-weight: 600;
+    font-size: 2em;
+    justify-content: center;
+    .SuscriberdecodedToken {
+      color: $primary-color;
+    }
+  }
+}
+
+.subscriberWelcomePagePaymentInformation {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.subscriberWelcomePagePaymentInformationText {
+  display: flex;
+  justify-content: center;
+  font-family: 'open sans', sans-serif;
+  color: white;
+  background-color: $primary-color;
+  border-radius: 19px;
+  justify-content: center;
+  padding: 2vh 7vw;
+}
+
+.subscriberWelcomePagesubtextbeneficiaries {
+  display: flex;
+  justify-content: center;
+  .subscriberWelcomePagesubtextbeneficiariesText {
+    font-family: $primary-font;
+    margin-bottom: 5vh;
+    .subscriberWelcomePagesubtextbeneficiariesTextSpan {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}
+.recipientInfo {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
+.subscriberWelcomePagesubtextbeneficiariesTextBold {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.WelcomePageSingaActu {
+  display: flex;
+  flex-direction: column;
+  font-family: 'work sans', sans-serif;
+  width: 65%;
+  margin-top: 9vh;
+  .WelcomePageSingaActuH2 {
+    font-size: 2.3em;
+    text-align: center;
+  }
+  .WelcomePageSingaActuH3 {
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+  }
+  .WelcomePageSingaActuText {
+    font-size: 1em;
+    font-family: 'Open Sans';
+  }
+  .WelcomePageSingaActuKnowMore {
+    color: #2ad63e;
+    font-size: 0.9em;
+    font-family: 'Open Sans';
+  }
+
+  .WelcomePageSingaActuButton {
+    height: 5vh;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffbc00;
+    font-family: 'work Sans', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    margin: 5vh auto;
+  }
+}

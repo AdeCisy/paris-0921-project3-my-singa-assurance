@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans');
+
+$primary-font: 'Work sans', sans-serif;
+$secondary-font: 'open sans', sans-serif;
+
+$primary-color: #2ad63e;
+$secondary-color: #ffbc00;
+
+.btn-work-green {
+  background-color: $primary-color;
+  font-family: 'work sans', sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+}

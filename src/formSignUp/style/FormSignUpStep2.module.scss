@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.mainForm2Container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  .header {
+    position: fixed;
+    width: 100vw;
+    .container {
+      height: 8vh;
+      display: flex;
+      gap: 5%;
+      background-color: #f3f2eb;
+      padding: 0 5%;
+      font-family: 'Work Sans', sans-serif;
+      .brand {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 10vw;
+        cursor: pointer;
+
+        .ImgLogo {
+          height: 40%;
+        }
+
+        .logo {
+          font-size: 1.5rem;
+          letter-spacing: -0.5px;
+          font-weight: bold;
+        }
+      }
+      .greenBtn {
+        height: 65%;
+        margin-top: 1%;
+        margin-left: 25%;
+      }
+    }
+  }
+
+  .formTitle {
+    display: flex;
+    margin-top: 22vh;
+    align-items: center;
+    margin-bottom: 5vh;
+    .FormSignUpStep2MainPortrait {
+      justify-content: space-around;
+      align-items: center;
+      .FormSignUpStep2MainPortraitDetail {
+        border-radius: 50%;
+        margin-right: 2vw;
+        width: 56px;
+      }
+    }
+    .title {
+      font-size: 1.5rem;
+    }
+  }
+  .formContainer {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Open sans', sans-serif;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5%;
+    .iconContainer {
+      display: flex;
+      align-items: center;
+      font-size: large;
+      .icon {
+        width: 3vw;
+        height: 3vh;
+      }
+    }
+    .subFormContainer {
+      display: flex;
+      flex-direction: column;
+      margin-top: 3%;
+      .input {
+        width: 100%;
+        opacity: 40%;
+        border: 2px solid gray;
+        width: 35vw;
+        height: 4vh;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 2% 0 2% 3%;
+        font-size: 1.2rem;
+      }
+      .isInvalid {
+        color: red;
+      }
+    }
+  }
+}
+
+.formBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5%;
+  width: 40vw;
+
+  .btnBack {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #dadada;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    color: #838383;
+    cursor: pointer;
+  }
+
+  .btnNext {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #37c948;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.created {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.showCreated {
+  visibility: visible;
+}
+
+.hideCreated {
+  visibility: hidden;
+}
+
+.FormSignUpStep2MainPortrait {
+  justify-content: space-around;
+  align-items: center;
+  .FormSignUpStep2MainPortraitDetail {
+    border-radius: 50%;
+    margin-right: 2vw;
+    width: 56px;
+  }
+}
+
+.formSignUpSpace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .formSignUpVisibilityOffImage {
+    width: 20px;
+    height: 20px;
+    opacity: 60%;
+    margin: auto;
+  }
+}

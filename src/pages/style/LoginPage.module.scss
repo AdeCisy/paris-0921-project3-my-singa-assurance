@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.loginPageHeader {
+  display: flex;
+  flex-direction: column;
+}
+.mainLoginPageContainer {
+  display: grid;
+  font-family: 'Open Sans', sans-serif;
+  margin: 8% 5% 0% 10%;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.mainText {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
+  justify-content: space-around;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  z-index: 1;
+}
+
+.logintitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2em;
+  z-index: 1;
+  background: none;
+  font-weight: bold;
+  .logintitleText {
+    margin: 0%;
+  }
+}
+
+.loginText1 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'open sans', sans-serif;
+  font-size: 1.1em;
+  opacity: 0.5;
+  width: 29vw;
+  font-size: inherit;
+  .loginText1Detail {
+    margin: 0%;
+  }
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginEmailLabel,
+.loginEmailInput,
+.loginPasswordLabel,
+.loginPasswordInput {
+  background-color: white;
+  border: none;
+  padding: 0.7vh;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.loginEmailLabel,
+.loginPasswordLabel {
+  color: #000000;
+  opacity: 60%;
+}
+
+.loginEmailInput,
+.loginPasswordInput {
+  color: #37c948;
+}
+
+.loginEmail,
+.loginPassword {
+  display: flex;
+  flex-direction: column;
+  border: #c1bbbb 1px solid;
+  background-color: white;
+  padding: 1vh;
+  cursor: pointer;
+  width: 35vw;
+}
+
+.backgroundImageLogin {
+  width: 140%;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  margin-left: 27vw;
+}
+
+.loginOptionButton {
+  justify-content: space-evenly;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8em;
+  opacity: 60%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  background: none;
+  width: 35vw;
+}
+
+.loginRememberMe,
+.loginPasswordForgetButton {
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  opacity: 100%;
+}
+
+.loginAccountButton {
+  display: flex;
+  gap: 5%;
+  justify-content: space-evenly;
+  background: none;
+  width: 35vw;
+
+  .loginConnexionButton {
+    height: 4vh;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: #37c948;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+    margin-right: 10%;
+    cursor: pointer;
+  }
+
+  .loginRegisterButton {
+    height: 4vh;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: #ffbc00;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-right: 10%;
+    cursor: pointer;
+  }
+}
+
+.logInError {
+  visibility: visible;
+  color: red;
+  font-weight: bold;
+}
+
+.logInOk {
+  visibility: hidden;
+}
+
+.loginPasswordSpace {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .loginPageVisibilityOffImage {
+    width: 20px;
+    height: 20px;
+    opacity: 60%;
+  }
+}

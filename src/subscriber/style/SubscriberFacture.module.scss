@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans');
+
+.mainFacturesContainer {
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: 10%;
+}
+
+.textFactures {
+  display: flex;
+  flex-direction: column;
+  width: 83%;
+  h2 {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'work sans', sans-serif;
+    margin-left: 18%;
+    margin-top: 3.9vh;
+  }
+}
+
+.titlesFactures {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  justify-content: space-between;
+  margin-left: 12vw;
+  width: 73%;
+  .ptitleFactures {
+    color: #2ad63e;
+    font-size: small;
+    font-weight: lighter;
+  }
+  .telechargeFactures {
+    font-size: small;
+    font-weight: lighter;
+  }
+}
+
+.telechargeFactures {
+  background: none;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.detailsFactures {
+  align-items: center;
+  background: #2ad63e;
+  border-radius: 20px;
+  color: white;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  height: 7vh;
+  font-weight: lighter;
+  justify-content: center;
+  margin-left: 17%;
+  text-align: center;
+  width: 50vw;
+}
+
+.listeFactures {
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  height: 25vh;
+  justify-content: space-around;
+  list-style: none;
+  margin-bottom: 6vh;
+  margin-left: 3vw;
+  b {
+    color: #2ad63e;
+  }
+}
+
+.btnFactures {
+  align-self: center;
+  background-color: #ffbc00;
+  border: none;
+  border-radius: 20px;
+  font-family: 'work Sans', sans-serif;
+  font-weight: 600;
+  font-size: large;
+  margin-bottom: 5%;
+  height: 5vh;
+  width: 20vw;
+  margin-left: 6vw;
+}
+
+.modeDePaiementFactures {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  hr {
+    color: aliceblue;
+    width: 95%;
+  }
+}
+
+.containerFactures {
+  background: white;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  width: 75%;
+  margin-left: 6vw;
+}
+
+.modeDePaiementTitle {
+  margin-left: 2%;
+}
+
+.containerFactures1 {
+  display: flex;
+  margin: 2%;
+  justify-content: space-between;
+}
+
+.changePaiement {
+  p {
+    color: #2ad63e;
+  }
+}
+
+.btnChange {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-between;
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}

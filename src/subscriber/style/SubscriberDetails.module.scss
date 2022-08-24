@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans');
+
+.mainContainerSubscriberDetails {
+  margin-top: 13vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'work sans', sans-serif;
+  .title {
+    margin-left: 15%;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'work sans', sans-serif;
+  }
+  .subscriberWelcomePageBeneficiariesImagePortrait {
+    display: flex;
+    margin-top: 6vh;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-left: 12%;
+    img {
+      width: 9%;
+      margin-left: 4%;
+    }
+    .subscriberWelcomePageBeneficiariesImagePortraitdetailBreak {
+      display: flex;
+      width: 100%;
+      font-size: x-large;
+      p {
+        margin-left: 2%;
+      }
+    }
+  }
+  .mainCoordinatesContainer {
+    background-color: white;
+    width: 68%;
+    margin-left: 15%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3%;
+    .coordinates {
+      display: flex;
+      justify-content: space-between;
+      margin: 4%;
+      width: 90%;
+      .coordinatesWord {
+        font-weight: bold;
+      }
+      .clientId {
+        opacity: 50%;
+      }
+    }
+    .recipientContainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom: 1px solid black;
+      width: 80%;
+      .recipient {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        .name {
+          display: flex;
+          color: #2ad63e;
+          font-size: large;
+          .lastName {
+            margin-left: 4px;
+          }
+        }
+      }
+      .modify {
+        text-decoration: underline;
+        height: 3vh;
+      }
+    }
+    .recipientContainer2 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-bottom: 1px solid black;
+      width: 80%;
+      .recipient {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        .name {
+          display: flex;
+          .lastName {
+            margin-left: 4px;
+            color: #2ad63e;
+            font-size: large;
+          }
+        }
+      }
+      .modify {
+        text-decoration: underline;
+        height: 3vh;
+      }
+    }
+    .recipientContainer3 {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 80%;
+      .recipient {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        .name {
+          display: flex;
+          .lastName {
+            margin-left: 4px;
+            color: #2ad63e;
+            font-size: large;
+          }
+        }
+      }
+      .modify {
+        text-decoration: underline;
+        height: 3vh;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.tarifCardContainer {
+  border: solid 3px #2ad63e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 20vw;
+  height: 200%;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 10px 15px 15px #a9a9a9;
+  .divTarif {
+    background-color: inherit;
+    border-radius: 20%;
+    padding: 2px 10px;
+  }
+}
+
+.tarifCardContainer:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 500ms;
+  cursor: default;
+  box-shadow: none;
+}
+.tarifCardContainer:not(:hover){
+  transform: scale(1);
+  transition: ease-in-out 500ms;
+  cursor: default;
+}
+
+.buttons {
+  background-color: inherit;
+  cursor: pointer;
+  height: 3vh;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  background-color: #ffbc00;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  width: 15vw;
+  border-radius: 30px;
+}
+
+h1 {
+  background-color: inherit;
+}

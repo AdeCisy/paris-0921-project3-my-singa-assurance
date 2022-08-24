@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans');
+
+.mainContratsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10.9vh;
+  margin-bottom: 14%;
+  margin-left: 15%;
+  .personas {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    width: 68%;
+    display: flex;
+    .lastName {
+      margin-left: 2%;
+    }
+  }
+}
+
+.textContainer {
+  background: white;
+  border-radius: 20px;
+  width: 80%;
+  margin-bottom: 4%;
+}
+
+.titlesContrat {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  margin: 2%;
+  p {
+    color: grey;
+    font-size: 0.8em;
+  }
+}
+
+.titleContrat,
+.documentTitle {
+  font-size: large;
+  font-weight: bold;
+  font-family: 'work sans', sans-serif;
+}
+
+.prixContrat {
+  align-items: center;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-between;
+  height: 5vh;
+  h4 {
+    font-size: 1.4em;
+  }
+  b {
+    font-size: 1.4em;
+  }
+}
+
+.documentPersonas {
+  display: flex;
+  margin-bottom: 5%;
+  width: 68%;
+  h3 {
+    width: 25%;
+  }
+}
+
+.documentContainer {
+  background: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.containerDocuments {
+  align-items: center;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 8%;
+  justify-content: space-between;
+}
+
+.telechargeDoc {
+  width: 52%;
+}
+
+.telechargeDoc {
+  font-family: 'Open Sans', sans-serif;
+  h4 {
+    font-size: 1em;
+  }
+  p {
+    color: grey;
+    font-size: 0.8em;
+    margin-top: -5%;
+  }
+}
+
+.btnChange {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: space-between;
+  img {
+    width: 2vw;
+  }
+}
+
+.btn {
+  background: none;
+  border: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: underline;
+}

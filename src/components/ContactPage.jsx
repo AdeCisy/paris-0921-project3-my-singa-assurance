@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Contact1 from '../assets/Contact1.png';
-import Contact2 from '../assets/Contact2.png';
+import Contact1 from '/assets/Contact1.png';
+import Contact2 from '/assets/Contact2.png';
 
 import style from './style/ContactPage.module.scss';
 

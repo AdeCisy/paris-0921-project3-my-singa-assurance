@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react';
 const SubscriberInfoContext = createContext({
   decodedToken: {},
   subscriberInfo: {},
-  recipientsInfo: {},
+  recipientsInfo: [],
   setDecodedToken: () => {},
   setSubscriberInfo: () => {},
   setRecipientsInfo: () => {},
@@ -12,7 +12,7 @@ const SubscriberInfoContext = createContext({
 export const SubscriberInfoContextProvider = ({ children }) => {
   const [decodedToken, setDecodedToken] = useState({});
   const [subscriberInfo, setSubscriberInfo] = useState({});
-  const [recipientsInfo, setRecipientsInfo] = useState({});
+  const [recipientsInfo, setRecipientsInfo] = useState([]);
 
   return (
     <SubscriberInfoContext.Provider

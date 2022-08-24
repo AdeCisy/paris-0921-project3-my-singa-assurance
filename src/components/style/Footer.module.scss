@@ -1,46 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
 .mainFooter {
   height: 20vh;
   display: flex;
   justify-content: space-evenly;
+  font-family: 'work sans', sans-serif;
+  margin-bottom: 5vh;
 }
-.logo {
+.footerLogo {
   width: 5vh;
 }
 .logoFooter {
   display: flex;
-  flex-direction: row-reverse;
   justify-content: space-evenly;
   align-items: center;
-}
-.singa {
-  font-size: xx-large;
+  margin-top: -5vh;
 }
 
-.ressources {
+.footerSinga {
+  font-weight: 800;
+  font-family: 'work sans', sans-serif;
+  font-size: 2.5em;
+}
+
+.footerRessources {
   margin-top: 16px;
   font-weight: bold;
 }
 
-.bloc {
+.footerBlock {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  .footerMenuBlock {
+    margin-top: -3vh;
+  }
 }
 
-.infos {
+.footerInfos {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  width: 9vw;
+  margin-top: 2vh;
 }
 
-.suivezsinga {
-  margin-bottom: 20%;
-  font-size: larger;
+.footerSuivezSinga {
   font-weight: bold;
 }
 
-.iconContainer {
+.footerIconContainer {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footerMenuText {
+  margin-bottom: -1vh;
 }

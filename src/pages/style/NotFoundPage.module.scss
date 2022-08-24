@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.errorMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+  font-family: 'Open Sans', sans-serif;
+
+  .error {
+    font-size: 200px;
+    margin: 0;
+
+    .logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .goBack {
+    width: 200px;
+    height: 50px;
+    background-color: #37c948;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

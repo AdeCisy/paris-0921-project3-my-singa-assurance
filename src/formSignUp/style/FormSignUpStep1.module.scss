@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.mainFormContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  .header {
+    position: fixed;
+    width: 100vw;
+  }
+
+  .greenBtn {
+    height: 65%;
+    margin-top: 1%;
+    margin-left: 25%;
+  }
+  .container {
+    height: 8vh;
+    display: flex;
+    gap: 5%;
+    background-color: #f3f2eb;
+    padding: 0 5%;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .brand {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    cursor: pointer;
+
+    .ImgLogo {
+      height: 40%;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      letter-spacing: -0.5px;
+      font-weight: bold;
+    }
+  }
+}
+
+.formTitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 22vh;
+
+  .title {
+    margin-bottom: 5vh;
+    font-size: 1.5rem;
+  }
+}
+.formContainer {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: 'Open sans', sans-serif;
+  background-color: white;
+  border-radius: 20px;
+
+  p {
+    margin: 2% 0 4% 5%;
+  }
+
+  .formGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      input {
+        width: 20vw;
+        height: 4vh;
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        padding: 2% 0 2% 3%;
+        font-size: 1.2rem;
+      }
+
+      input[type='email'] {
+        width: 45vw;
+        padding: 1% 0 1% 1.5%;
+      }
+
+      .isInvalid {
+        color: red;
+        border-color: red;
+      }
+    }
+  }
+}
+
+.formBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5%;
+
+  .btnBack {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #dadada;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    color: #838383;
+    cursor: pointer;
+  }
+
+  .btnNext {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #37c948;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.FormSignUpStep1MainPortrait {
+  justify-content: space-around;
+  align-items: center;
+  .FormSignUpStep1MainPortraitDetail {
+    border-radius: 50%;
+    margin-right: 2vw;
+    width: 56px;
+  }
+}
